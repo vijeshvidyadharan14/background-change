@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Rubik Wet Paint", system-ui;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.subhead{
+  font-family: "Prociono", serif;
+  margin-top: 10px;
+}
+
+button {
+   margin-top: 10px;
+   margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s;
+  }
+
+  /* Hover Effect */
+  button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+  }
+
+  
